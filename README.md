@@ -1,12 +1,12 @@
-# IoT-Laundry-Alert
+## IoT-Laundry-Alert
 IoT device that sends text message alert when laundry cycle is complete. 
 
-Installation and Usage Instructions
+#Installation and Usage Instructions
 
 Set Up Development Environment
-•	Download Energia IDE: https://energia.nu/download/
-o	Open Energia. Click Tools, Board, Boards Manager. 
-o	Find Energia Tiva C Boards. Click Install.
+-Download Energia IDE: https://energia.nu/download/
+-Open Energia. Click Tools, Board, Boards Manager. 
+-Find Energia Tiva C Boards. Click Install.
 
 •	Plug in TI TM4C123 Launchpad to USB Port.
 
