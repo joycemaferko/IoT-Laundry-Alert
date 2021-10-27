@@ -5,7 +5,7 @@ Two versions of the program are shown here. The first (Laundry_Alert.c) is a
 working version using the CC3220SF board and the Temboo/Twilio SMS API for the 
 full IoT text alert functionality. The second (Laundry_Alert.ino) is a basic version 
 using Energia, the TM4C123 board, and the blink_green function in place of send_sms 
-while I'm working out a compatibility issue with the Temboo/Twilio.
+while I'm working out a compatibility issue with the Temboo/Twilio API.
 
 This program is timed to my washer/dryer express cycle. You should adjust MAX_WAIT
 and VIBRATION_SENSITIVITY as applicable for your own machine. 
