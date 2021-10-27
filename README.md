@@ -10,7 +10,7 @@ while I'm working out a compatibility issue with the Temboo/Twilio.
 This program is timed to my washer/dryer express cycle. You should adjust MAX_WAIT
 and VIBRATION_SENSITIVITY as applicable for your own machine. 
 
-## Installation and Usage Instructions
+## Installation and Usage Instructions for TM4C123 Version
 
 ### Set Up Development Environment
 - Download Energia IDE: https://energia.nu/download/
