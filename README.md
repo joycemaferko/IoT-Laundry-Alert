@@ -1,9 +1,11 @@
 # IoT-Laundry-Alert
 IoT device that sends text message alert when laundry cycle is complete. 
 
-The program is currently using TM4C123 in place of the CC3220SF board and the 
-blink_green function in place of send_sms while I'm working out a 
-compatibility issue with the Temboo/Twilio SMS API.
+Two versions of the program are shown here. The first (Laundry_Alert.c) is a 
+working version using the CC3220SF board and the Temboo/Twilio SMS API for the 
+full IoT text alert functionality. The second (Laundry_Alert.ino) is a basic version 
+using Energia, the TM4C123 board, and the blink_green function in place of send_sms 
+while I'm working out a compatibility issue with the Temboo/Twilio.
 
 This program is timed to my washer/dryer express cycle. You should adjust MAX_WAIT
 and VIBRATION_SENSITIVITY as applicable for your own machine. 
